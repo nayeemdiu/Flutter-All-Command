@@ -1,0 +1,46 @@
+Flutter all commands:
+
+🔍 General Flutter Commands
+Command	Description
+flutter --version	Show installed Flutter and Dart versions.
+flutter doctor	Diagnose your Flutter setup and environment.
+flutter upgrade	Upgrade Flutter to the latest stable version.
+flutter downgrade	Downgrade to a previous version (manually specify version).
+flutter channel	Show or switch between Flutter channels (stable, beta, dev, master).
+flutter channel <channel_name>	Switch to a specific channel, e.g., flutter channel stable.
+flutter precache	Download binaries ahead of time.
+flutter config	Configure Flutter settings like enabling web, desktop, etc.
+
+📁 Project Commands
+Command	Description
+flutter create my_app	Create a new Flutter project named my_app.
+flutter run	Run the app on a connected device/emulator.
+flutter build apk	Build a release APK for Android.
+flutter build appbundle	Build an AAB (for Google Play).
+flutter build ios	Build the iOS app (only on macOS).
+flutter clean	Clean the build directory (fixes weird issues).
+flutter pub get	Fetch all dependencies defined in pubspec.yaml.
+flutter pub upgrade	Upgrade all packages to the latest allowed versions.
+
+📦 Package & Plugin Management
+Command	Description
+flutter pub add <package_name>	Add a package to pubspec.yaml and fetch it.
+flutter pub remove <package_name>	Remove a package.
+flutter pub outdated	Show outdated dependencies.
+flutter pub cache repair	Reinstall all cached packages.
+
+🧪 Testing & Dev Tools
+Command	Description
+flutter analyze	Analyze Dart code for issues.
+flutter test	Run unit tests.
+flutter devices	List connected devices.
+flutter emulators	List available Android/iOS emulators.
+flutter logs	Show log output from connected device.
+
+🧰 Tools & Debugging
+Command	Description
+flutter attach	Attach debugger to a running app.
+flutter doctor -v	Verbose doctor output.
+flutter run --debug	Run app in debug mode.
+flutter run --release	Run app in release mode.
+flutter run --profile	Run app in profile mode.
